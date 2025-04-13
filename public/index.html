@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Thought Organizer - Main</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Thought Organizer</h1>
+    <nav>
+      <a href="create.html" target="_blank">Create New Thought / Group</a> |
+      <a href="groups.html" target="_blank">Groups</a> |
+      <a href="instructions.html" target="_blank">Instructions & Help</a>
+    </nav>
+  </header>
+  
+  <section id="filters">
+    <input type="text" id="textSearch" placeholder="Search text...">
+    <input type="text" id="tagSearch" placeholder="Filter by tags (comma separated)">
+    <input type="text" id="groupSearch" placeholder="Filter by group IDs (comma separated)">
+    <select id="dateSort">
+      <option value="none">No date sort</option>
+      <option value="asc">Sort by Date (Ascending)</option>
+      <option value="desc">Sort by Date (Descending)</option>
+    </select>
+  </section>
+  
+  <section id="thoughtsList">
+    <!-- Thoughts will be rendered here -->
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>

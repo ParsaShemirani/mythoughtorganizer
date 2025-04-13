@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create New Thought / Group</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Create New Entry</h1>
+    <nav>
+      <a href="index.html">Back to Main</a> |
+      <a href="groups.html" target="_blank">View Groups</a> |
+      <a href="instructions.html" target="_blank">Instructions & Help</a>
+    </nav>
+  </header>
+  
+  <section id="newThoughtForm">
+    <h2>New Thought</h2>
+    <textarea id="newThoughtText" placeholder="Enter your thought here"></textarea>
+    <input type="text" id="newThoughtTags" placeholder="Tags (comma separated)">
+    <input type="text" id="newThoughtGroupIds" placeholder="Group IDs (comma separated)">
+    <input type="text" id="newThoughtChainId" placeholder="Chain ID (if replying to a thought)">
+    <button id="addThoughtBtn">Add Thought</button>
+  </section>
+  
+  <section id="newGroupForm">
+    <h2>New Group</h2>
+    <input type="text" id="newGroupName" placeholder="Group Name">
+    <textarea id="newGroupDescription" placeholder="Description (optional)"></textarea>
+    <button id="addGroupBtn">Add Group</button>
+  </section>
+  
+  <script src="create.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "G1",
+    "name": "Development Ideas",
+    "description": "Ideas related to coding and system design."
+  },
+  {
+    "id": "G2",
+    "name": "UI/UX Concepts",
+    "description": "Ideas and musings about user interfaces."
+  },
+  {
+    "name": "James group",
+    "description": "Thirty five telescopes that james webb developed",
+    "id": "G3"
+  }
+]

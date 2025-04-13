@@ -1,0 +1,115 @@
+[
+  {
+    "id": "1",
+    "text": "Learn how to integrate Node.js with a simple HTML interface.",
+    "date": "2025-04-08",
+    "tags": [
+      "nodejs",
+      "learning"
+    ],
+    "chainId": "",
+    "groupIds": [
+      "G1"
+    ]
+  },
+  {
+    "id": "2",
+    "text": "Experiment with inline editing for thought entries.",
+    "date": "2025-04-08",
+    "tags": [
+      "editing",
+      "ui"
+    ],
+    "chainId": "1",
+    "groupIds": [
+      "G2"
+    ]
+  },
+  {
+    "text": "Thought: For time and schedule logging: Maybe I can record my planned time breakdown and then the reality distribution using the stopwatch tracking. Overtime I can see what I am investing time on.",
+    "date": "2025-04-12",
+    "tags": [
+      "timeing",
+      "thoughtthings"
+    ],
+    "groupIds": [
+      "G3"
+    ],
+    "chainId": "",
+    "id": "3"
+  },
+  {
+    "text": "James webb is amazing. This is a follow up.",
+    "date": "2025-04-12",
+    "tags": [],
+    "groupIds": [
+      "G3"
+    ],
+    "chainId": "",
+    "id": "4"
+  },
+  {
+    "text": "Thirty five james webb",
+    "date": "2025-04-12",
+    "tags": [],
+    "groupIds": [
+      "G3"
+    ],
+    "chainId": "",
+    "id": "5"
+  },
+  {
+    "text": "What if I cover up versus of Quran with paper, and reveal as I read to guess the next word.",
+    "date": "2025-04-12",
+    "tags": [],
+    "groupIds": [],
+    "chainId": "",
+    "id": "6"
+  },
+  {
+    "text": "Observation: Apple Watch charging routine hasn't been going well. I often forget, and I don't feel good leaving my timers on there. It makes a very loud noise if one goes off on the ground.",
+    "date": "2025-04-12",
+    "tags": [],
+    "groupIds": [],
+    "chainId": "",
+    "id": "7"
+  },
+  {
+    "text": "Musing: a few nights ago, I was having trouble going to bed. I was wishing that I had a wife, and I felt so alone. I was thinking about just signing up for community college again and getting that degree so that I can get started. But then I thought again about the potential on the projects I'm working on at the moment.",
+    "date": "2025-04-12",
+    "tags": [],
+    "groupIds": [],
+    "chainId": "",
+    "id": "8"
+  },
+  {
+    "text": "Thought, unscheduled: Please explain regarding story of Adam and Eve in Al araf: why is the idea of how shataan try’s to “reveal what is concealed of their private parts” so empahized? Please list out the phrases it’s brought up in and explain thr significance.",
+    "date": "2025-04-12",
+    "tags": [],
+    "groupIds": [],
+    "chainId": "",
+    "id": "9"
+  },
+  {
+    "text": "Idea for computer folders: Always start in sitting, move to sleeping after a certain time period. Do this to avoid hard decision making in the moment. Maybe I can also use \"running\" as a pinned section. Think of everything as in sitting, move to running if often acessed",
+    "date": "2025-04-12",
+    "tags": [],
+    "groupIds": [
+      "G3"
+    ],
+    "chainId": "8",
+    "id": "10"
+  },
+  {
+    "text": "Observation: The Mateen walk. During this trip in Lake Tahoe, I love seeing Mateen walking. He looks at the ground, and keeps walking all over the house or place we are at. If someone stands in his way, he just looks the other way and keeps walking until he can. His face looks the same whether there is nothing in front of him or if he is finding his way around a person. He is most responsive to \"Mateen, high five, high five\". If he hears that during his walk, he will try his best to give the high five. But he will do that as if he's doing the walk and the high five at the same time. It's as if he never stopped what he was doing. It's as if he was just doing one thing.",
+    "date": "2025-04-12",
+    "tags": [
+      "Generalgaming"
+    ],
+    "groupIds": [
+      "G3"
+    ],
+    "chainId": "10",
+    "id": "11"
+  }
+]

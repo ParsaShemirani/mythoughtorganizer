@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Instructions & Help</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Additional styles specific to the instructions page */
+    body {
+      margin: 20px;
+      line-height: 1.6;
+      background: #fefefe;
+    }
+    h1, h2 {
+      color: #444;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    p {
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Instructions & Help</h1>
+  <p>Welcome to your Thought Organizer! This application is designed to help you capture, edit, and organize your thoughts into a dynamic system that supports thought chains, grouping, and real-time filtering.</p>
+  
+  <h2>How to View and Edit Thoughts</h2>
+  <ul>
+    <li><strong>Main Page:</strong> The main page (<code>index.html</code>) displays all your thoughts. Each entry shows the full text, creation date, tags, and any assigned group IDs.</li>
+    <li><strong>Inline Editing:</strong> Click the "Edit" button on a thought to modify its content, tags, group IDs, and chain ID. Click "Save" to update the entry or "Cancel" to discard changes.</li>
+    <li><strong>Chain View:</strong> If a thought is the beginning of a chain (i.e., it has no chainId but has replies), a "Click to view chain" link appears. Clicking that opens <code>chain.html</code> in a new tab, showing the entire thread of related thoughts.</li>
+  </ul>
+  
+  <h2>How to Create New Entries</h2>
+  <ul>
+    <li><strong>Create Page:</strong> Open the create page (<code>create.html</code>) to add a new thought or group. For new thoughts, you can input the thought text, tags (comma separated), optional group IDs, and an optional chain ID if it's a reply.</li>
+    <li><strong>New Groups:</strong> Use the same page to create a new group by entering a group name and an optional description. Groups are stored separately and listed in the Groups page.</li>
+  </ul>
+  
+  <h2>Filtering, Sorting, and Grouping</h2>
+  <ul>
+    <li><strong>Real-Time Filtering:</strong> Use the search fields on the main page to filter thoughts by text, tags, and group IDs. The results update automatically as you type.</li>
+    <li><strong>Date Sorting:</strong> Use the dropdown menu on the main page to sort thoughts by date in ascending or descending order, or choose "No date sort" to disable date ordering.</li>
+    <li><strong>Group Filtering:</strong> Enter one or more group IDs (comma separated) to show only the thoughts belonging to those groups. The filtering uses an AND logic—only thoughts with all specified group IDs will be shown.</li>
+  </ul>
+  
+  <h2>Additional Concepts</h2>
+  <ul>
+    <li><strong>Thought Chains:</strong> Thoughts can be linked in a chain by using the <code>chainId</code> attribute. This creates a thread where you can see the evolution of an idea over time.</li>
+    <li><strong>Groups:</strong> Groups help organize thoughts by theme or topic. Use the Groups page (<code>groups.html</code>) to view a phonebook-style list of all groups with their IDs and descriptions.</li>
+    <li>For bulk imports from external tools (like ChatGPT), make sure to start with the current highest ID so that new entries remain sequential.</li>
+    <li>Backup your <code>data.json</code> file manually as needed.</li>
+  </ul>
+  
+  <p>If you have any further questions, you can always refer back to this page or check the UI prompts on the main application.</p>
+  
+  <p>Happy organizing!</p>
+</body>
+</html>
