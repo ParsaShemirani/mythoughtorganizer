@@ -13,5 +13,10 @@
     "name": "James group",
     "description": "Thirty five telescopes that james webb developed",
     "id": "G3"
+  },
+  {
+    "name": "Gitfirstgroup",
+    "description": "This is testing the git hub funcitonality on the VPS",
+    "id": "G4"
   }
 ]
